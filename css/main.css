@@ -1,0 +1,46 @@
+body {
+    font: 1em sans-serif;
+    color: #444;
+    margin: 0;
+}
+h1, h2, h3, h4 {
+    margin: 0px;
+}
+h3 {
+    margin: 0.5em;
+    font-weight: lighter;
+    color: red;
+}
+mark {
+    background-color: black;
+    color: white;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+    height: 100vh;
+}
+.icon {
+    display: inline-block;
+    color: black;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    transition: all 0.3s ease;
+}
+#main {
+    text-align: center;
+}
+.links {
+    margin-top: 1em;
+    font-size: 2em;
+}
+.description-icon .icon {
+    color: red;
+}
+.links .icon:hover {
+    color: red;
+}
