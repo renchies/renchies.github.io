@@ -2,12 +2,14 @@ body {
     font: 1em sans-serif;
     color: #444;
     margin: 0;
+    overflow: hidden;
 }
 h1, h2, h3, h4 {
     margin: 0px;
 }
 h3 {
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     font-weight: lighter;
     color: red;
 }
@@ -15,13 +17,13 @@ mark {
     background-color: black;
     color: white;
 }
-#content {
+#wrapper, #content, #art {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    resize: both;
+    /* resize: both; */
     overflow: auto;
     height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
 }
 .icon {
     display: inline-block;
@@ -31,8 +33,22 @@ mark {
     fill: currentColor;
     transition: all 0.3s ease;
 }
-#main {
-    text-align: center;
+#content {
+    width: 50vw;
+    align-items: center;
+}
+#art {
+    width: 50vw;
+    background-color: #f76c6c;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.svg-art {
+    /* width: 200px; */
+    /* height: auto; */
+    width: 60%;
+    height: auto;
+    margin: 10px;
 }
 .links {
     margin-top: 1em;
