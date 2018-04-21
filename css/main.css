@@ -1,53 +1,37 @@
 body {
-    font: 1em sans-serif;
+    font: 1em 'Libre Baskerville', serif;
     color: #444;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-h1, h2, h3, h4 {
+h1,h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
     margin: 0px;
-}
-h3 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-weight: lighter;
     color: red;
-    text-align: center;
 }
 mark {
     background-color: black;
     color: white;
 }
-#name {
-    font-size: 5em;
-}
-#wrapper {
-    width: 100vw;
-    height: 100vh;
-}
-#wrapper, #content {
+#wrapper, #info, #projects, #skills, #contact {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-#content {
+#wrapper {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+#info, #projects, #skills, #contact, #tech {
+    width: 100vw;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
-.icon {
-    display: inline-block;
-    color: black;
-    width: 1em;
-    height: 1em;
-    fill: currentColor;
-    transition: all 0.3s ease;
+#info, #contact {
+    height: 100vh;
 }
-.links {
-    margin-top: 0.5em;
-    font-size: 2em;
-}
-.description-icon .icon {
-    color: red;
-}
-.links .icon:hover {
-    color: red;
+#projects, #skills {
+    background-color: #f5f5f5;
 }

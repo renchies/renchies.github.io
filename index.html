@@ -11,7 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Imports -->
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto+Mono:700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/info.css">
+        <link rel="stylesheet" href="css/skills.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
     <body>
         <svg style="position: absolute; width: 0; height: 0; overflow: hidden">
@@ -30,9 +35,12 @@
                 </symbol>
 
         <div id="wrapper">
-            <div id="content">
-                <h1 class="info" id="name"><mark>Renchie Salido</mark></h1>
-                <h3 class="info">Developer | Keyboard Enthusiast | Artist</h3>
+            <section id="info">
+                <div id="name">
+                    <mark>&nbsp;Renchie&nbsp;</mark>
+                    <mark>&nbsp;Salido&nbsp;</mark>
+                </div>
+                <h3>Aspiring Fullstack Developer, Keyboard Enthusiast, Artist</h3>
 
                 <span class="description-icon info">
                     <svg class="icon"><use xlink:href="#icon-map-marker"></use></svg>
@@ -42,6 +50,7 @@
                     <svg class="icon"><use xlink:href="#icon-graduation-cap"></use></svg>
                     California State University, Northridge
                 </span>
+                
                 <div class="links info">
                     <a href="https://www.linkedin.com/in/renchies/"><svg class="icon">
                         <use xlink:href="#icon-linkedin-square"></use>
@@ -51,7 +60,43 @@
                         <use xlink:href="#icon-github"></use>
                     </svg></a>
                 </div>
-            </div>
+                <div class="arrow-down">▼</div>
+            </section>
+
+            <section id="skills">
+                <div id="tech">
+                    <h1>Skills</h1>
+                    <h3>Front End</h3>
+                    <section>
+                        <span><i class="devicon-html5-plain"></i>HTML</span>
+                        <span><i class="devicon-css3-plain"></i>CSS</span>
+                        <span><i class="devicon-javascript-plain"></i>JavaScript</span>
+                        <span><i class="devicon-sass-original"></i>SASS</span>
+                    </section>
+                    <section>
+                        <span><i class="devicon-d3js-plain"></i>D3.js</span>
+                        <span><i class="devicon-angularjs-plain"></i>AngularJS</span>
+                        <span><i class="devicon-vuejs-plain"></i>Vue.js</span>
+                    </section>
+                    <h3>Back End</h3>
+                    <section>
+                        <span><i class="devicon-java-plain"></i>Java</span>
+                        <span><i class="devicon-nodejs-plain"></i>Node.js</span>
+                        <span><i class="devicon-python-plain"></i>Python</span>
+                        <span><i class="devicon-mysql-plain"></i>MySQL</span>
+                    </section>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h1>Contact Me</h1>
+                <form action="mailto:renchie.salido@gmail.com" method="post" id="email-message">
+                    <input placeholder="Full Name" type="text" name="name">
+                    <input placeholder="Email" type="text" name="email">
+                    <input placeholder="Message" type="text" name="message">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
         </div>
     </body>
 </html>

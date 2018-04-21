@@ -1,0 +1,29 @@
+#contact {
+    background-color: black;
+}
+#contact h1 {
+    margin-bottom: 20px;
+}
+#contact mark {
+    background-color: white;
+    color: black;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+#contact form input {
+    font: 1em 'Libre Baskerville', serif;
+    margin-bottom: 20px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+#contact input[type="submit"] {
+    font: 1em 'Roboto Mono', monospace;
+    height: 50px;
+    width: 300px;
+    background-color: red;
+    color: white;
+    border: none;
+}

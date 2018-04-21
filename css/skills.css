@@ -1,0 +1,30 @@
+#skills {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+#skills section {
+    display: flex;
+    align-items: center;
+}
+#skills h3 {
+    color: #444;
+}
+#skills h1, #skills h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#skills span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+#skills i {
+    margin-bottom: 10px;
+    font-size: 4em;
+    color: black;
+}

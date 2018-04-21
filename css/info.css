@@ -1,0 +1,40 @@
+#info h3 {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: lighter;
+    color: red;
+    text-align: center;
+}
+
+#name {
+    display: flex;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+@media only screen and (orientation: portrait) {
+    #name {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.icon {
+    display: inline-block;
+    color: black;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    transition: all 0.3s ease;
+}
+.links {
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+.description-icon .icon, .links .icon:hover {
+    color: red;
+}
+.arrow-down {
+    position: absolute;
+    bottom: 10px;
+}
