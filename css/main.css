@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 h1,h2, h3, h4 {
+    text-decoration: underline;
     font-family: 'Roboto Mono', monospace;
     margin: 0px;
     color: red;

@@ -5,11 +5,12 @@
     font-weight: lighter;
     color: red;
     text-align: center;
+    text-decoration: none;
 }
 
 #name {
     display: flex;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -19,19 +20,18 @@
         align-items: center;
     }
 }
-.icon {
-    display: inline-block;
-    color: black;
-    width: 1em;
-    height: 1em;
-    fill: currentColor;
-    transition: all 0.3s ease;
+.description-icon i {
+    color: red;
 }
 .links {
     margin-top: 0.5em;
     font-size: 2em;
 }
-.description-icon .icon, .links .icon:hover {
+.links > a {
+    color: black;
+    text-decoration: none;
+}
+.links > a:hover {
     color: red;
 }
 .arrow-down {
