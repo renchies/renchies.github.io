@@ -1,5 +1,6 @@
 #contact {
     background-color: black;
+    padding-top: 50px;
 }
 #contact h1 {
     margin-bottom: 20px;
@@ -32,4 +33,7 @@ textarea:focus, input:focus{
     background-color: red;
     color: white;
     border: none;
+}
+#contact section:nth-child(2) {
+    margin-bottom: 100px;
 }

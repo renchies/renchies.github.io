@@ -1,0 +1,5 @@
+@media only screen and (max-width: 420px) {
+    #projects section, #tech {
+        width: 90%;
+    }
+}

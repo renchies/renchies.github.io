@@ -34,7 +34,3 @@
 .links > a:hover {
     color: red;
 }
-.arrow-down {
-    position: absolute;
-    bottom: 10px;
-}

@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?7873107#fontello') format('svg');
+    src: url('../font/fontello.svg?4164140#fontello') format('svg');
   }
 }
 */
@@ -55,8 +55,15 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-location:before { content: '\e800'; } /* '' */
-.icon-graduation-cap-1:before { content: '\e801'; } /* '' */
-.icon-down-open:before { content: '\e802'; } /* '' */
+.icon-tags:before { content: '\e800'; } /* '' */
+.icon-briefcase:before { content: '\e801'; } /* '' */
+.icon-graduation-cap:before { content: '\e802'; } /* '' */
+.icon-location:before { content: '\e803'; } /* '' */
+.icon-down-open:before { content: '\e804'; } /* '' */
+.icon-link:before { content: '\e805'; } /* '' */
+.icon-calendar:before { content: '\e806'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
+.icon-filter:before { content: '\f0b0'; } /* '' */
+.icon-terminal:before { content: '\f120'; } /* '' */
+.icon-copyright:before { content: '\f1f9'; } /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; } /* '' */
