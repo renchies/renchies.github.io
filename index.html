@@ -15,7 +15,10 @@
 
   <!-- Imports -->
   <!-- For Production Use -->
-  <link rel="stylesheet" href="css/styles.min.css" async>
+  <link rel="preload" href="css/styles.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="css/styles.min.css">
+  </noscript>
 
   <!-- For Development Use -->
   <!-- <link rel="stylesheet" href="css/main.css">
