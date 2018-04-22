@@ -40,7 +40,7 @@ mark {
     color: white;
 }
 span > a {
-    color: red;
+    color: black;
     text-decoration: underline;
     text-decoration-style: dotted;
 }
@@ -80,4 +80,23 @@ span > a:hover {
 }
 #contact > .screen-bottom {
     position: relative;
+    padding-bottom: 25px;
+}
+#contact input[type="submit"]:hover, button:hover {
+    cursor: pointer;
+}
+button {
+    font: 1em 'Roboto Mono', monospace;
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+button:focus {
+    outline: none;
+}
+button:disabled {
+    cursor:not-allowed;
 }

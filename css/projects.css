@@ -7,13 +7,43 @@
 }
 #projects h3 {
     margin-top: 30px;
-}
-#projects span > i {
     color: red;
 }
-#projects section {
+#projects span > i {
+    color: black;
+}
+#projects > .project-item {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    width: 60%;
+    width: 50%;
+}
+@media only screen and (min-width: 1000px) {
+    #projects > .project-item {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-end; */
+        align-items: flex-end;
+    }
+    #projects > .project-item > section {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-item img {
+        width: 150px;
+        height: 150px;
+    }
+    .img-right {
+        padding-left: 30px;
+    }
+    .img-left {
+        padding-right: 30px;
+    }
+}
+#projects .project-item > section {
+    margin: 0px;
+}
+.project-status {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
 }
