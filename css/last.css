@@ -12,3 +12,11 @@
         display: none;
     }
 }
+@media only screen and (max-width: 499px) {
+    #contact span {
+        max-width: 80%;
+    }
+    #contact form input, textarea {
+        width: 100%;
+    }
+}

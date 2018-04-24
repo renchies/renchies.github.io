@@ -13,6 +13,7 @@
 #contact form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 #contact form input, textarea {
     font: 1em 'Libre Baskerville', serif;
@@ -24,6 +25,7 @@
     border: none;
     border-bottom: 1px solid white;
     color: white;
+    width: 500px;
 }
 textarea:focus, input:focus {
     outline: none;
@@ -36,6 +38,15 @@ textarea:focus, input:focus {
     color: white;
     border: none;
 }
+#contact input[type="submit"]:hover {
+    color: black;
+}
 #contact section:nth-child(3) {
     margin-bottom: 100px;
+}
+#contact span {
+    max-width: 500px;
+}
+#contact span em {
+    color: red;
 }
